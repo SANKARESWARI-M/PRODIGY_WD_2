@@ -1,0 +1,54 @@
+body{
+    background-image: url('bg\ clock.jpeg');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+.container{
+    color:white;
+    width:35%;
+    top:15%;
+    left:5%;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    background-color: rgb(114, 183, 243);
+    background: transparent;
+    border:1px solid white;
+    padding:25px 40px;
+    
+}
+.timedisplay{
+    background-color: rgb(5, 110, 133);
+    
+    padding:60px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    border-radius:10px;
+}
+.action{
+    width:90%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:35px;
+    padding-left: 25px;
+}
+.action button{
+    padding:10px 20px;
+    background-color: azure;
+    color:black;
+    border:none;
+    font-family: 'Roboto',sans-serif;
+    font-size:15px;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: aqua;
+    color:black;
+    border:3px solid white;
+    padding:7px 17px;
+}

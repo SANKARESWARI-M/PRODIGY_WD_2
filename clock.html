@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet"href="clock.css">
+</head>
+<body>
+    <div class="container">
+        <div class="timedisplay">
+            00 : 00 : 00 : 00
+        </div>
+        <ul class="laps"></ul>
+
+        <br>
+        <div class="action">
+            
+           <button id="starttimer" onclick="start()">Start</button>
+           <button id="pausetimer" onclick="Pause()">Pause</button>
+           <button id="resettimer" onclick="reset()">Reset</button>
+           <button id="restarttimer" onclick="restart()">Restart</button>
+           <button id="lap" onclick="lap()">Lap</button>
+           <button id="resetlap" onclick="resetlap()">Reset Laps</button>
+        </div>
+        <br><br>
+    </div>    
+    <script src="clock.js"></script>
+</body>
+</html>
